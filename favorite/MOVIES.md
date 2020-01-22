@@ -1,1 +1,2 @@
 The Shawshank Redemption
+Midsommar
