@@ -16,3 +16,5 @@ Place your article suggestions at the end of this list.  When you create the PR 
 
 [12 Things every Software Developer should be doing in 2020](https://dev.to/mbcrump/12-things-every-software-developer-should-be-doing-in-2020-5hbp)
  - Quick list of good tips for developers in 2020 
+[More Valuable than Oil, Data Reigns in Today’s Data Economy](https://www.northridgegroup.com/blog/more-valuable-than-oil-data-reigns-in-todays-data-economy/)
+- How important it is becoming to be able refine the raw data comapanies recieve to create valuable interpretable information. There is no shortage of data and it is potentially the most important part of the business structure in todays world.
