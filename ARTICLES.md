@@ -18,3 +18,7 @@ Place your article suggestions at the end of this list.  When you create the PR 
  - Quick list of good tips for developers in 2020 
 [More Valuable than Oil, Data Reigns in Today’s Data Economy](https://www.northridgegroup.com/blog/more-valuable-than-oil-data-reigns-in-todays-data-economy/)
 - How important it is becoming to be able refine the raw data comapanies recieve to create valuable interpretable information. There is no shortage of data and it is potentially the most important part of the business structure in todays world.
+
+https://www.theregister.co.uk/2020/01/22/germany_windows_7_support_bill/
+
+An article highlighting the potential costs of maintaining older systems. Thousands of German government computers are still using the windows 7 operating systems, which windows is no longer supporting with updates (including for security).
