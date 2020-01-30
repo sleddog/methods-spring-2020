@@ -1,1 +1,2 @@
 - Mistborn - Brandon Sanderson
+- Call of Cthulhu - H.P Lovecraft
