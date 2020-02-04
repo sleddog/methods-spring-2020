@@ -20,11 +20,18 @@ void insert(struct node** head, int n, int d){
 	temp->denom = d;
 	temp->setVal();
 	if((*head) != NULL){
-		while((iter->next != NULL) && (temp->val > iter->val)){iter = iter->next;}
-		temp->next = iter->next;
-		iter->next = temp;
-		temp->prev = iter;
-		if(iter->next != NULL){iter->next->prev = temp;}
+		if(temp->val < (*head)->val){
+			temp->next = (*head);
+			(*head)->prev = temp;
+			(*head) = temp;
+		}
+		else{
+			while((iter->next != NULL) && (temp->val > iter->val)){iter = iter->next;}
+			temp->next = iter->next;
+			iter->next = temp;
+			temp->prev = iter;
+			if(iter->next != NULL){iter->next->prev = temp;}
+		}
 	}
 	else{
 		temp->next = (*head);
@@ -33,21 +40,27 @@ void insert(struct node** head, int n, int d){
 }
 void printF(struct node* head){
 	do{
-		cout << head->val << ", ";
+		cout << head->num << "/" << head->denom << ", ";
 		head = head->next;
 	}while(head != NULL);
 	cout << "\n";
 }
-void printR(struct node* head){
-	while(head->next != NULL){head = head->next;}
-	do{
-		cout << head->val << ", ";
-		head = head->prev;
-	}while(head != NULL);
+void solve(struct node* iter, struct node** ans){
+	float num = (float)(3)/(float)(7);
+	while((iter->val != num) && (iter->next != NULL)){iter = iter->next;}
+	(*ans) = iter->prev->prev;
+}
+void generate(struct node** head, int mult){
+	for(int i=1;i<(mult+1);i++){
+		for(int j=1; j<i;j++){
+			insert(head,j,i);
+		}
+	}
 }
 int main(){
 	struct node* head = NULL;
-	insert(&head,1,2);
-	insert(&head,3,4);
-	printF(head);
+	generate(&head,8);
+	struct node* ans = head;
+	solve(head,&ans);
+	cout << ans->num << "/" << ans->denom << "\n";
 }
