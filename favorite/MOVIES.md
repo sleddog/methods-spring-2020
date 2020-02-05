@@ -1,4 +1,5 @@
 The Shawshank Redemption
+<<<<<<< Updated upstream
 HEAD
 Midsommar
 HEAD
@@ -9,3 +10,10 @@ Midsommar
 Howl's Moving Castle
 656db1ed260175dd1a5a9dce353de1cc9e9d8b75
 63a93332db6f5c864f4788ce5d4f598bb90552b5
+=======
+Midsommar
+Howl's Moving Castle
+Redline
+
+
+>>>>>>> Stashed changes
