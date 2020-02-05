@@ -1,4 +1,19 @@
 import unittest
+from fizzbuzz import fizzbuzz
+
+
+class TestFizzBuzz(unittest.TestCase):
+    def test_fizzbuzz_15(self):
+        x = fizzbuzz(15)
+        self.assertEqual(x, "FizzBuzz")
+
+    def test_fizzbuzz_15(self):
+        x = fizzbuzz(5)
+        self.assertEqual(x, "Buzzsdfsdfg")
+
+    def test_fizzbuzz_1(self):
+        x = fizzbuzz(1)
+        self.assertEqual(x, 1)
 
 
 class TestStringMethods(unittest.TestCase):
