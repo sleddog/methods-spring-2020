@@ -19,9 +19,14 @@ Place your article suggestions at the end of this list.  When you create the PR 
 
 
 
+
 [German taxpayers faced with €800k Windows 7 support bill due to Deutschland dithering](https://www.theregister.co.uk/2020/01/22/germany_windows_7_support_bill/)
 - An article highlighting the potential costs of maintaining older systems. Thousands of German government computers are still using the windows 7 operating systems, which windows is no longer supporting with updates (including for security).
 =======
+=======
+[A Season in R](https://confidentialinterval.com/posts/a-season-in-r/)
+ - R is a very useful tool for creating graphs, and running complex statistics analysis, but has problems scaling up due to its age and lack or major optimization.  The fact it is open source and free can also lead to some support issues.
+
 [More Valuable than Oil, Data Reigns in Today’s Data Economy](https://www.northridgegroup.com/blog/more-valuable-than-oil-data-reigns-in-todays-data-economy/)
 - How important it is becoming to be able refine the raw data comapanies recieve to create valuable interpretable information. There is no shortage of data and it is potentially the most important part of the business structure in todays world.
 
