@@ -1,4 +1,6 @@
 #include <iostream>
+#include <bits/stdc++.h>
+#include <string>
 using namespace std;
 
 struct node{
@@ -7,7 +9,6 @@ struct node{
 	float val;
 
 	struct node*  next;
-	struct node*  prev;
 
 	void setVal(){
 		val = (float)(num)/(float)(denom);
@@ -22,15 +23,14 @@ void insert(struct node** head, int n, int d){
 	if((*head) != NULL){
 		if(temp->val < (*head)->val){
 			temp->next = (*head);
-			(*head)->prev = temp;
 			(*head) = temp;
 		}
 		else{
-			while((iter->next != NULL) && (temp->val > iter->val)){iter = iter->next;}
-			temp->next = iter->next;
-			iter->next = temp;
-			temp->prev = iter;
-			if(iter->next != NULL){iter->next->prev = temp;}
+			while((iter->next != NULL) && (temp->val > iter->next->val)){iter = iter->next;}
+			if(iter->val != temp->val){
+				temp->next = iter->next;
+				iter->next = temp;;
+			}
 		}
 	}
 	else{
@@ -38,29 +38,57 @@ void insert(struct node** head, int n, int d){
 		(*head) = temp;
 	}
 }
-void printF(struct node* head){
-	do{
-		cout << head->num << "/" << head->denom << ", ";
-		head = head->next;
-	}while(head != NULL);
-	cout << "\n";
-}
-void solve(struct node* iter, struct node** ans){
+void solve(struct node* iter){
 	float num = (float)(3)/(float)(7);
-	while((iter->val != num) && (iter->next != NULL)){iter = iter->next;}
-	(*ans) = iter->prev->prev;
+	while((iter->next->val != num) && (iter->next != NULL)){iter = iter->next;}
+	cout << "Answer is " << iter->num << "/" << iter->denom << "\n";
 }
-void generate(struct node** head, int mult){
+void generate(struct node** head, int mult,float ans){
+	float exempt;
+	float percent;
 	for(int i=1;i<(mult+1);i++){
+		percent = 100 * ((float)(i)/(float)(mult));
+		cout << fixed << setprecision(2) << "%" << percent << "\r";
 		for(int j=1; j<i;j++){
-			insert(head,j,i);
+			exempt = (float)(j)/(float)(i);
+			if(exempt <= ans){
+				insert(head,j,i);
+			}
 		}
 	}
+	cout << "\n";
 }
-int main(){
+int interpret(int argc, char** argv, int* mult, float* ans){
+	if(argc < 3){
+		cout << "Not enough arguments, requires 2\n";
+		return 0; 
+	}
+	else if(argc > 3){
+		cout << "Too many arguments, requires 2\n";
+		return 0;
+	}
+	else{
+		string temp;
+		temp = argv[1];
+		for(int i=0;i<temp.length();i++){
+			(*mult) = ((*mult) * 10) + (temp.at(i) - '0');
+		}
+		temp = argv[2];
+		int num = temp.at(0) - '0';
+		int denom = temp.at(2) - '0';
+		(*ans) = (float)(num)/(float)(denom);
+		return 1;
+	}
+}
+int main(int argc, char** argv){
 	struct node* head = NULL;
-	generate(&head,8);
-	struct node* ans = head;
-	solve(head,&ans);
-	cout << ans->num << "/" << ans->denom << "\n";
+	float ans;
+	int mult = 0;
+	int boolean;
+	boolean = interpret(argc, argv, &mult, &ans);
+	if(boolean == 1){
+		generate(&head,mult,ans);
+		solve(head);
+	}
+	return 0;
 }
