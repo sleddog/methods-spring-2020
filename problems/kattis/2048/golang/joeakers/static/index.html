@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Input Type Submit</title>
+        <style>
+            body{
+                text-align: center;
+            }
+            .grid-container {
+              display: grid;
+              grid-template-columns: auto auto auto auto;
+              background-color: #2196F3;
+              padding: 10px;
+            }
+            .grid-item {
+              background-color: rgba(255, 255, 255, 0.8);
+              border: 1px solid rgba(0, 0, 0, 0.8);
+              padding: 20px;
+              font-size: 30px;
+              text-align: center;
+            }
+            .buttonContainer {
+              display: grid;
+              justify-content: space-evenly;
+              grid-template-columns: auto auto auto auto;
+              padding-top: 10px;
+              margin-left: 20px;
+              margin-right: 20px;
+            }
+            #wrapper {
+                margin: auto;
+                text-align: center;
+                width: 75%;
+            }
+            #newGameContainer {
+                widows: 50%;
+                display: grid;
+                grid-template-columns: auto;
+                padding: 10px;
+            }
+            .slideBtn{
+                font-size: 30px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .slideBtn:hover {
+                background-color: #1a8096;
+            }
+        </style>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src='/scripts/javascript.js'></script>
+        
+    </head>
+
+    <body>
+        <div id='wrapper'>
+            <div id='newGameContainer'>
+                <form action="/" method="GET">
+                    <!-- <input type="text" name="fname" id="fname" placeholder="first name" autofocus autocomplete="off"> -->
+                    <input type="submit" name="newgame" value="New Game" class='slideBtn'>
+                </form>
+            </div>
+
+        {{if .}}
+        <main>
+            <div class="grid-container">
+            
+                {{range .}}
+                
+                    {{range .}}
+                    <div class="grid-item">{{.}}</div>
+                    {{end}}
+                    {{end}}
+            </div>
+        
+        </main>
+        {{end}}
+
+            <div class='buttonContainer'>
+                <button id=slideLeft class='slideBtn' type="button">Slide Left</button>
+                <button id=slideUp class='slideBtn' type="button">Slide Up</button>
+                <button id=slideDown class='slideBtn' type="button">Slide Down</button>
+                <button id=slideRight class='slideBtn' type="button">Slide Right</button>
+            </div>
+        </div>
+
+    </body>
+    </html>
