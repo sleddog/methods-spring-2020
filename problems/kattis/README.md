@@ -6,7 +6,7 @@ I created a program that prints hello world but also what ever else you put in i
 https://open.kattis.com/problems/hello
 This is the main one I did.
 
-
+I did add the files on /HelloWorld!/python/tyrado but it wont push it all up. that is the reason you do not see that directory.
 
 
 
