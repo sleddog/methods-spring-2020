@@ -3,6 +3,8 @@ and returns the nearest lesser fraction to input argument a/b
 
 To compile this file use g++
 
+g++ orgin_file -o output_file
+
 Example: g++ prob71.cpp -o prob71
 
 To run enter file name followed by two arguments
