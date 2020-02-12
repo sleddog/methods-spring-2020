@@ -22,3 +22,7 @@ Place your article suggestions at the end of this list.  When you create the PR 
   
 [More Valuable than Oil, Data Reigns in Today’s Data Economy](https://www.northridgegroup.com/blog/more-valuable-than-oil-data-reigns-in-todays-data-economy/)
 - How important it is becoming to be able refine the raw data comapanies recieve to create valuable interpretable information. There is no shortage of data and it is potentially the most important part of the business structure in todays world.
+
+
+[Economoic Outlook Seminar for Montana](https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A727ee0fe-f3c3-489a-92a9-c8e332b37a6e)
+- Every year University of Montana Economists create a report on the state of the Job market, and economic outlook of different aspects of the state economy. Page 43 of the report for our field. I found this information encouraging and exciting. I find I'm often so deep in the details that a outside look was refreshing. 
