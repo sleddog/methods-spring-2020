@@ -1,4 +1,3 @@
-# Kattis problems
 In this lab you will be using python which can be found here.
 https://www.python.org/downloads/release/python-375/
 once you load this up send the file to execute by running helloWorld.py.
