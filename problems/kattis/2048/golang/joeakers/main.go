@@ -391,6 +391,8 @@ func main() {
 	//load static files
 	http.Handle("/scripts/", http.StripPrefix("/scripts/", http.FileServer(http.Dir("static/scripts"))))
 
+	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static/"))))
+
 	// Start server -- listen at localhost, port 8080
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
