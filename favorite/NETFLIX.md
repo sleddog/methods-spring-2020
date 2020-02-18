@@ -1,8 +1,7 @@
-## Netflix Recommendations
-+ Breaking Bad
-+ Dark
-+ Human Centipede
-+ Mind Hunter
-+ Peaky Blinders
-+ The Witcher
+Breaking Bad
+Dark
+Human Centipede
+Mind Hunter
+Peaky Blinders
+The Witcher
 

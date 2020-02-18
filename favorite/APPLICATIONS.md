@@ -1,2 +1,1 @@
-## Applications
-- Google Docs
+Google Docs
