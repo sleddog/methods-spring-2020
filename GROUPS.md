@@ -27,6 +27,6 @@ Group 5
 - Jamie Winter
 
 Group 6
-- github-username
-- github-username
-- github-username
+- github-Jason-Bengtson
+- github-blakestanger
+- github-gabeewsuk
