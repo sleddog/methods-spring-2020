@@ -7,7 +7,7 @@ Group 1
 - github-username
 
 Group 2
-- github-username
+- wyatt-benson
 - github-username
 - github-username
 
