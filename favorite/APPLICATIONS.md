@@ -1,3 +1,3 @@
-Google Docs
-Octoprint
-Discord
++ Google Docs
++ Octoprint
++ Discord
