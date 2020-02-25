@@ -22,9 +22,9 @@ Group 4
 - github-username
 
 Group 5
-- github-username
-- github-username
-- github-username
+- Joe Akers
+- Courtney Yovich
+- Jamie Winter
 
 Group 6
 - github-username
