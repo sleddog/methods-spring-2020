@@ -12,9 +12,9 @@ Group 2
 - github-username
 
 Group 3
-- github-username
-- github-username
-- github-username
+- Logan Pappas
+- Connor Ludwig 
+- Kendell Prather
 
 Group 4
 - github-username
