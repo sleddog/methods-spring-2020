@@ -1,5 +1,8 @@
 package firstPackage;
 
+// Taken from Kattis problem "A new Alphabet"
+// https://open.kattis.com/problems/anewalphabet
+
 import java.util.Scanner;
 public class newAlphabet {
 
