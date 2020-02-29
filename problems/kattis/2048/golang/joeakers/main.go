@@ -34,11 +34,11 @@ type responseBody struct {
 //Make Gloabal varaiable of type board to save games into
 var globalBoard board
 
-// This Function is the meat - it counts the zeros, removes them, and adds the non-zero values
+//CollapseNums6 is the meat - it counts the zeros, removes them, and adds the non-zero values
 // the output pointer will track the number of zeros
 // 		we need this because if the zeros are directly returned by recusion, the sliding effect will not happen
 // the function will return a 2D slice of only the none zero values
-func collapseNums6(nums [][]int, output *[]int) [][]int {
+func CollapseNums6(nums [][]int, output *[]int) [][]int {
 	// base case, only one number left
 	if len(nums) == 1 {
 		// check is this number is a zero
@@ -73,7 +73,7 @@ func collapseNums6(nums [][]int, output *[]int) [][]int {
 		//b := append(a[1:2], a[2:]...)
 		//fmt.Println("b : ", b)
 		// call the recursion
-		return collapseNums6(nums, output)
+		return CollapseNums6(nums, output)
 		//return collapseNums6(b, output)
 
 		// Final Case -- two adjacent numbers are different
@@ -92,13 +92,12 @@ func collapseNums6(nums [][]int, output *[]int) [][]int {
 			nums[1] = tmp
 		}
 		// call recursion
-		return append(collapseNums6(nums[0:1], output), collapseNums6(nums[1:], output)...)
+		return append(CollapseNums6(nums[0:1], output), CollapseNums6(nums[1:], output)...)
 	}
 }
 
-// This function will take in a row of values and run them through the collapse
-//	function
-func processRow(rowVals []int) []int {
+//ProcessRow function takes in a row of values and runs them through collapse function
+func ProcessRow(rowVals []int) []int {
 	// make the 2D holder
 	toCollapse := make([][]int, 4)
 
@@ -113,7 +112,7 @@ func processRow(rowVals []int) []int {
 	//toReturn := make([]string, 0)
 
 	// collase the row
-	j := collapseNums6(toCollapse, &toReturn)
+	j := CollapseNums6(toCollapse, &toReturn)
 	//fmt.Println("j: ", j)
 
 	// add up the values in each inner array
@@ -288,7 +287,7 @@ func indexHandler(w http.ResponseWriter, req *http.Request) {
 //	process function
 func processBoard(board *[][]int) {
 	for i, v := range *board {
-		(*board)[i] = processRow(v)
+		(*board)[i] = ProcessRow(v)
 		//responseArray = append(responseArray, newBoard[i]...)
 	}
 
