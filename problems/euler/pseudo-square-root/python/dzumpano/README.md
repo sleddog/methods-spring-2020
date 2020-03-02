@@ -8,7 +8,10 @@ Let p be the product of the primes below 190.
 Find PSR(p) mod 10^16.'
 
 ## How To Run
-Hell if I know, ill figure it out soon
+If you do not yet have a C complier, i would recomend installing MinGW
+Once you have a C complier, run the command:
+$ gcc psr.c -o psr -lm
+$ ./psr.exe
 
 ## Running Recomendations
 I would recomend not running it however becasue it is extremely ineffecient and takes quite a while to find the solution. 
