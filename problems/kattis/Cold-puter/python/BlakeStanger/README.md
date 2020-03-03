@@ -106,6 +106,23 @@ files also need to be in the same folder as Cold-puter:
 methods-spring2020/"YourBranch"/Cold-puter$ ls
 Cold-puter.py README.txt cold-001.in cold-002.in "new_test_file.in" 
 
+TESTING COLDPUTER WITH UNIT TEST
+
+
+Cold-puter contains a modified 
+test file named test_Cold-puter.py
+This test runs with the same commands as regular Cold-puter. The only difference is it has a function test_Cold-puter that asserts the 5 and 1 for the input cold-001.in and cold-002.in
+
+$ python Cold-puter.py -i cold-001.in
+
+Should provide the output
+
+****************************************************
+Everything Passed 
+****************************************************
+
+The asserts will throw errors telling what the value should have been if they are not correct. 
+
 AUTHORS
 
 Blake Stanger 
