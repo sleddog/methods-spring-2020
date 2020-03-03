@@ -1,7 +1,7 @@
 
 // Solution to Kattis 'Faktor' Problem.
 // Problem Description: https://open.kattis.com/problems/faktor
-// Courtney Yovich, CSCI 494 - Industry Methods - Assignment 2
+// Courtney Yovich, CSCI 494 - Industry Methods - Assignment 2 + 3
 
 #include <iostream>
 

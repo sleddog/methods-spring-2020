@@ -26,3 +26,7 @@ Now faktor can be run as an executable program.
 ### Running the program
 
 The user running the program provides the input. Type in the number of articles and the impact factor with a space between them and hit enter. The program will compute the minimum number of scientists you must bribe to reach the desired impact factor.
+
+### Unit Testing
+
+This program uses Catch, a header-only unit testing feature for C++. To test the citationsNeeded function, make sure you have the catch.hpp file in the same folder as faktor.cpp. The program will run the user input and then print the unit test results.
