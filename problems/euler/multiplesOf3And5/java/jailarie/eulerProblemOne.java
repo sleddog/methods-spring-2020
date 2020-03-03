@@ -10,6 +10,16 @@ public class eulerProblemOne {
 		System.out.println("Please enter a positive number: ");
 		Scanner consoleScanner = new Scanner(System.in);
 		int n = consoleScanner.nextInt();
+		int total;
+		total = calculateMultiples(n);
+		System.out.println("The sum of multiples of 3 and 5 below " + n + " is " + total);
+	}	
+	
+
+
+
+	public static int calculateMultiples(int n) {
+		// TODO Auto-generated method stub
 		int current = 0;
 		int sum = 0;
 		
@@ -18,6 +28,7 @@ public class eulerProblemOne {
 				sum += current;
 			}
 			current++;
-		}System.out.println("The sum of multiples of 3 and 5 below " + n + " is " + sum);
-	}	
+		}
+		return sum;
+	}
 }
