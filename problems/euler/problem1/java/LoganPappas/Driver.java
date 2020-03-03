@@ -11,13 +11,13 @@ public class Driver {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-            
+
               int totalSum = solution(1000);
               System.out.println("The total sum of all multiples of 3 & 5 is " + totalSum);
 
 	}
-    
-    public static int solution(test_number){
+
+    public static int solution(int test_number){
         int totalSum=0;
         for(int i=0;i<test_number;i++){
             if(i%3 == 0| i%5 == 0){
@@ -25,6 +25,6 @@ public class Driver {
             }
         }
         return totalSum;
-    }    
-    
+    }
+
 }
