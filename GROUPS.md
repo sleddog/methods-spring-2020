@@ -8,7 +8,7 @@ Group 1
 
 Group 2
 - wyatt-benson
-- github-username
+- Tysen Radovich -tyrado
 - github-username
 
 Group 3
