@@ -22,3 +22,7 @@ To run this code from the command line, ruby version >2.6 must be installed, use
 ```ruby
 ruby solution.rb
 ```
+
+### Example Execution
+
+![Example Run](exampleRun.png)
