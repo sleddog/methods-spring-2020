@@ -11,3 +11,6 @@ Since the solution to this problem was made using JAVA you will need to install 
 
 ### Run the code
  To run this code you will want to open the solution driver file and then run it using whatever IDE you choose.
+
+### Testing
+For the unit testing of this problem i changed the driver slightly to add in the capability to test easier by comparing the value of the solution to the value of what is expected based on an input that the user chooses. For the test I have it set to 10 so it would compare the answer of 23 to what the actual driver comes back with which is also 23.
