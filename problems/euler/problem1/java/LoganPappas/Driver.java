@@ -12,15 +12,14 @@ public class Driver {
      */
     public static void main(String[] args) {
             
-              int totalSum = solution(); 
+              int totalSum = solution(1000);
               System.out.println("The total sum of all multiples of 3 & 5 is " + totalSum);
 
 	}
     
-    public static int solution(){
+    public static int solution(test_number){
         int totalSum=0;
-        
-        for(int i=0;i<100;i++){
+        for(int i=0;i<test_number;i++){
             if(i%3 == 0| i%5 == 0){
                 totalSum+=i;
             }
