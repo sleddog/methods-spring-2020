@@ -23,6 +23,20 @@ To run this code from the command line, ruby version >2.6 must be installed, use
 ruby solution.rb
 ```
 
+In the file `solution.rb` you must uncomment line 46 to call the method that will drive the program.
+
 ### Example Execution
 
 ![Example Run](exampleRun.png)
+
+### Running Unit Tests
+
+To run the unit tests run the following code, after commenting the main function call in `solution.rb` on line 46
+
+```ruby
+ruby test.rb
+```
+
+This should give the output:
+
+![Tests successful execution](testsRunning.png)
