@@ -9,7 +9,7 @@ Group 1
 Group 2
 - wyatt-benson
 - Tysen Radovich -tyrado
-- github-username
+- DanielBachler
 
 Group 3
 - Logan Pappas
