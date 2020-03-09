@@ -10,6 +10,7 @@ Group 2
 - wyatt-benson
 - Tysen Radovich -tyrado
 - DanielBachler
+- benbarn313
 
 Group 3
 - Logan Pappas
