@@ -13,8 +13,8 @@ Group 2
 - benbarn313
 
 Group 3
-- Logan Pappas
-- Connor Ludwig 
+- Lpappas98
+- ConnorLudwig
 - Kendell Prather
 
 Group 4
