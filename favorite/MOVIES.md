@@ -1,14 +1,6 @@
-The Shawshank Redemption
+Ace Ventura When Nature Calls
+Howl's Moving Castle
 Midsommar
 Redline
-Howl's Moving Castle
-LadyHawke
-Midsommar
-
-
-
-
-
-
-
-
+The Shawshank Redemption
+The Big Lebowski

@@ -1,6 +1,4 @@
-- Mistborn - Brandon Sanderson
-
-- How Green Was My Valley by Richard Llewellyn 
-
-- 11/22/63 - Stephen King
+Mistborn - Brandon Sanderson
+The Call of Cthulhu - H.P Lovecraft
+11/22/63 - Stephen King
 

@@ -8,9 +8,21 @@ My solution to this problem first reads in values.  The way that hackerrank sets
 
 ### Setup
 
-No libraries are needed, the only tools required are Ruby setup in your system path, a code editor of your choice, and a functional command line.  The other option as listed below is to run this code on hackerrank, then no setup is needed besides copying and pasting the code into the box.
+No libraries are needed, the only tools required are Ruby setup in your system path, a code editor of your choice, and a functional command line.  
+
+The other option as listed below is to run this code on hackerrank, then no setup is needed besides copying and pasting the code into the box.
 
 ### Run this code
 
 There are two ways that this code can be run, it can be submitted on hackerranks Project Euler competetion and will succesfully
 complete the challenge.  Or the values can be manually fed in by running the program in terminal.
+
+To run this code from the command line, ruby version >2.6 must be installed, use command:
+
+```ruby
+ruby solution.rb
+```
+
+### Example Execution
+
+![Example Run](exampleRun.png)
