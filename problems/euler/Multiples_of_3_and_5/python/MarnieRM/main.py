@@ -1,7 +1,7 @@
 # 2/18/2020 Marnie M Problem 1
 class Main:
     @staticmethod  # Can be called without needing to create a main object
-    # This function keeps track of the total sum of multiples of 3 and 5 under 100 in sumTotal
+    # This function keeps track of the total sum of multiples of 3 and 5 under 1000 in sumTotal
     # and subtracts the sum of the multiples of 15 so there are no repeats.
     def threeAndFive():
         countUp = 0
