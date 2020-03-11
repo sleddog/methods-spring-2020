@@ -1,6 +1,3 @@
-i = input("put in your numbers for i: ")
-j = input("put in number for j: ")
-    
 def check(i):
     try:
         i = int(i)
@@ -27,5 +24,7 @@ def calculate(i, j):
         check(j)
     return f'Your number is {k}'
 
-
-print(calculate(i, j))
+if __name__ == "__main__":
+    i = input("put in your numbers for i: ")
+    j = input("put in number for j: ")
+    print(calculate(i, j))

@@ -1,4 +1,4 @@
-I fully redid R2 you can see it in realr2.py
+I fully redid R2 you can see it in r2l.py
 
 I also did another problem in case this is not sufficient which was the r2.
  https://open.kattis.com/problems/r2 In this one you take in two numbers and get out the mean. 
@@ -12,4 +12,5 @@ I also did another problem in case this is not sufficient which was the r2.
  https://code.visualstudio.com/
  When you download visual studio code make sure you also download all of the python packages to do that There are bars on the side there is an extention tab look for them.
 I had to completly redo my function because writing a test code for it was a night mare. So in my code i made sure that it checked the input was a integer 
-before it errors out. My unit test test3.py doesnt work but it should later.
+before it errors out. My unit test test.py doesnt work for some reason if I cant get it to work I might just go back to my hello world.
+The waymy unit test works is it give the input for i and j and then the calulations should output my expected output.
