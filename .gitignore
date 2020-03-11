@@ -1,2 +1,4 @@
 .idea/
 venv/
+NoDuplicates.pyc
+__pycache__/
