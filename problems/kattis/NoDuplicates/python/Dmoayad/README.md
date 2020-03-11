@@ -36,3 +36,13 @@ use 'py' instead of 'python3' if you are using Windows.
 or you can open and run the script in Visual Studio Code with the interpreter configured correctly.
 
 You could also use IDE such as PyCharm.
+
+
+## How to run unit test
+```
+python3 -m unittest -v test_NoDuplicates.py
+```
+use 'py' instead of 'python3' if you are using Windows.
+
+you will be prompted to input.. press enter to proceed.
+<p color="red">Make sure the test file is in the same directory as the program file otherwise it wouldn't work.</p>
