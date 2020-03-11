@@ -10,4 +10,4 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 Loop through each number from 1 to 999. If the number can be divided by 3 or 5 with a remainder of 0 add it to the sum.
 
 ##Running the Program
-Open the Java IDE of your choice. (If you do not have a java IDE installed Eclipse can be downloaded or free. Open eulerProblemOne.java in your IDE and run as Java application. Solution will be printed to the console.
+Open the Java IDE of your choice. (If you do not have a java IDE installed Eclipse can be downloaded for free. Open eulerProblemOne.java in your IDE and run as Java application. Solution will be printed to the console.

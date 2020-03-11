@@ -10,16 +10,19 @@ Rounding is always performed upwards. For example the impact factor of the “Jo
 
 You are the editor of one scientific journal. You know how many articles you are going to publish and the owners are pushing you to reach a specific impact factor. You are wondering how many scientists you will have to bribe to cite your articles to meet the owners demands. Since money is tight you want to bribe the minimal amount of scientists. Each bribed scientist buys you a single citation.
 
-#### Solution
+### Solution
 
 Subtract one from the impact factor, multiply by the number of articles, and add one.
 
-#### Compile
+### Compile
 
+In command line, navigate to the folder where faktor.cpp is located, then type the command below.
 *NOTE: If you don't have a C++ compiler installed, I'd recommend using MinGW.*
  
 > g++ -o faktor faktor.cpp
 
-#### Running the program
+Now faktor can be run as an executable program.
+
+### Running the program
 
 The user running the program provides the input. Type in the number of articles and the impact factor with a space between them and hit enter. The program will compute the minimum number of scientists you must bribe to reach the desired impact factor.

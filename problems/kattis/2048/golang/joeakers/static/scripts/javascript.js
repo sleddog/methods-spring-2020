@@ -24,8 +24,16 @@ window.onload=function(){
                 //console.log("in success")
                 console.log(JSON.stringify(response));
                 $('.grid-item').each(function(index){
+                    console.log(response[index])
+                    if (response[index] == 0) {
+                        
+                        console.log("true")
+                        $( this ).text(null);
+                    } else {
+                        $( this ).text(response[index]);
+                    }
                     //console.log(response[index])
-                    $( this ).text(response[index]);
+                    //$( this ).text(response[index]);
                 });
     
             },
