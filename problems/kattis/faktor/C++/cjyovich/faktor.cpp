@@ -4,7 +4,6 @@
 // Courtney Yovich, CSCI 494 - Industry Methods - Assignment 2 + 3
 
 #include <iostream>
-#define CATCH_CONFIG_RUNNER
 #include "catch.hpp"
 
 int citationsNeeded(int articles, int impact) {
@@ -12,18 +11,16 @@ int citationsNeeded(int articles, int impact) {
 	return numNeeded;
 }
 
-TEST_CASE("Number of Articles and Impact Factor", "Reviewers Needed") {
-	REQUIRE(citationsNeeded(38, 24) == 875);
-	REQUIRE(citationsNeeded(1, 100) == 100);
-}
 
-int main() {
+int main(int argc, char* argv[]) {
 	int numArticles{};
 	int impFactor{};
 	std::cin >> numArticles >> impFactor;
 
 	int result = citationsNeeded(numArticles, impFactor);
 	std::cout << result;
-	return 0;
+
+	int test = Catch::Session().run(argc, argv);
+	return test;
 
 }

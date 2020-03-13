@@ -23,10 +23,16 @@ In command line, navigate to the folder where faktor.cpp is located, then type t
 
 Now faktor can be run as an executable program.
 
+# Known Issue: Since the addition of the unit testing framework, to run faktor in this manner, lines 23 and 24 must be commented out. I am working to resolve this issue but until further notice this is the only way to successfully compile the program when NOT running the unit tests.
+
 ### Running the program
 
 The user running the program provides the input. Type in the number of articles and the impact factor with a space between them and hit enter. The program will compute the minimum number of scientists you must bribe to reach the desired impact factor.
 
 ### Unit Testing
 
-This program uses Catch, a header-only unit testing feature for C++. To test the citationsNeeded function, make sure you have the catch.hpp file in the same folder as faktor.cpp. The program will run the user input and then print the unit test results.
+This program uses Catch, a header-only unit testing feature for C++. You can download Catch [here](https://github.com/catchorg/Catch2). To test the citationsNeeded function, make sure you have the catch.hpp file in the same folder as faktor.cpp. To run the unit test from the command line, navigate to the folder where test_faktor.cpp is located and type the following command:
+
+>g++ -o test test_faktor.cpp
+
+Now "test" can be run as an executable program. The program will prompt you for user input and then print the unit test results.
