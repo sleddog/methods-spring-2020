@@ -23,7 +23,7 @@ In command line, navigate to the folder where faktor.cpp is located, then type t
 
 Now faktor can be run as an executable program.
 
-# Known Issue: Since the addition of the unit testing framework, to run faktor in this manner, lines 23 and 24 must be commented out. I am working to resolve this issue but until further notice this is the only way to successfully compile the program when NOT running the unit tests.
+##### Known Issue: Since the addition of the unit testing framework, to run faktor in this manner, lines 23 and 24 must be commented out. I am working to resolve this issue but until further notice this is the only way to successfully compile the program when NOT running the unit tests.
 
 ### Running the program
 
