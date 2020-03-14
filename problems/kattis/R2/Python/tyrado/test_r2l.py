@@ -1,11 +1,12 @@
 import unittest
+import pytest
 
 from r2l import calculate
 # import calculate
 
 def test_calculate():
-    i = input(10)
-    j = input(20)
+    i = 10
+    j = 20
     output = calculate(i,j)
     assert output == 30
 

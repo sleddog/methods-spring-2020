@@ -10,7 +10,10 @@ I also did another problem in case this is not sufficient which was the r2.
  But if you find this one to not meet the test you are wanting to do I will add it here. 
  It works much better when you open and run it with visual studio code. 
  https://code.visualstudio.com/
- When you download visual studio code make sure you also download all of the python packages to do that There are bars on the side there is an extention tab look for them.
-I had to completly redo my function because writing a test code for it was a night mare. So in my code i made sure that it checked the input was a integer 
-before it errors out. My unit test test.py doesnt work for some reason if I cant get it to work I might just go back to my hello world.
-The waymy unit test works is it give the input for i and j and then the calulations should output my expected output.
+ When you download visual studio code make sure you also download all of the python packages to do that. There are bars on the side there is an extention tab look for them.
+I had to completly redo my function because writing a test code for it was a learning proccess. So in my code I made sure that it checked the input was a integer 
+before it errors out. 
+My unit test test_r2l.py you have to have your files names the exact same for it to work. The test_r2l.py and r2l.py should be in the same folder.
+Once that condition has been meet then in the terminal for whatever thing you are runniing run the command pytest. 
+This should then show that the test has run and it all works.
+This should look just like the photo.
