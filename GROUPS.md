@@ -27,7 +27,7 @@ Group 5
 - Courtney Yovich
 - Jamie Winter
 
-Group 6
-- github-Jason-Bengtson
-- github-blakestanger
-- github-gabeewsuk
+Group 6 (AKA team funkytown)
+- Jason-Bengtson
+- blakestanger
+- gabeewsuk
