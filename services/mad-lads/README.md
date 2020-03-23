@@ -1,6 +1,10 @@
 # mad-lads
 ## Dan Bachler, Wyatt Benson, Tysen Radovich, Ben Barnett
 
+# Link to SwaggerHub API Spec
+
+[SwaggerHub](https://app.swaggerhub.com/apis/DanielBachler/mad-lads/1.0.0)
+
 # Hosting
 
 The application will be hosted on Dan's webserver at danbachler.com
