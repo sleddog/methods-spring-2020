@@ -11,6 +11,10 @@ The application will be hosted on Dan's webserver at danbachler.com
 
 # Endpoint
 
+There is one endpoint in this API, which is animalType.  Specifying an animal type returns a random fact about that animal.  
+
+Failure to input an animal, or putting in an unknown animal causes the random fact to instead be a human based insult.
+
 # Language and Framework
 
 The language and framework we will be using is Python using Flask for the web app
