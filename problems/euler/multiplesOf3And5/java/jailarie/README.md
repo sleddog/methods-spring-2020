@@ -11,3 +11,6 @@ Loop through each number from 1 to 999. If the number can be divided by 3 or 5 w
 
 ##Running the Program
 Open the Java IDE of your choice. (If you do not have a java IDE installed Eclipse can be downloaded for free. Open eulerProblemOne.java in your IDE and run as Java application. Solution will be printed to the console.
+
+##Unit Test
+Open eulerProblemOneTest.java in your Java ide and run as JUnit. The test will assert the correct answer for the user input of 10, which is 23.
