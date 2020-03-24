@@ -9,5 +9,6 @@ WORKDIR /HelloWorldService
 RUN echo Installing Python packages listed in requirements.txt
 RUN pip install -r ./requirements.txt
 RUN echo Starting python and starting the Flask service...
+EXPOSE 8080/tcp
 ENTRYPOINT ["python"]
 CMD ["helloWorldService.py"]
