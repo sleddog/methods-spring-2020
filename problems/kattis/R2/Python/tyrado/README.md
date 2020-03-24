@@ -1,4 +1,4 @@
-I fully redid R2 you can see it in r2l.py
+
 
 I also did another problem in case this is not sufficient which was the r2.
  https://open.kattis.com/problems/r2 In this one you take in two numbers and get out the mean. 
