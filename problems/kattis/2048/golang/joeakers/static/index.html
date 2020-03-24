@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Input Type Submit</title>
+        <style>
+            body{
+                text-align: center;
+            }
+            .grid-container {
+              display: grid;
+              grid-template-columns: auto auto auto auto;
+              background-color: #2196F3;
+              padding: 10px;
+            }
+            .grid-item {
+              min-width: 50px;
+              min-height: 40px;
+              background-color: rgba(255, 255, 255, 0.8);
+              border: 1px solid rgba(0, 0, 0, 0.8);
+              padding: 20px;
+              margin: 2px;
+              font-size: 30px;
+              text-align: center;
+            }
+            .buttonContainer {
+              display: grid;
+              justify-content: space-evenly;
+              grid-template-columns: auto auto auto auto;
+              padding-top: 10px;
+              margin-left: 20px;
+              margin-right: 20px;
+            }
+            #wrapper {
+                min-width: 500px;
+                max-width: 750px;
+                margin: auto;
+                text-align: center;
+                width: 75%;
+            }
+            #newGameContainer {
+                display: grid;
+                grid-template-columns: auto;
+                padding: 10px;
+            }
+            #newGameContainer form {
+                font-size: 30px;
+            }
+            .slideBtn{
+                width: 100px;
+                background-color: rgb(209, 209, 202);
+                font-size: 30px;
+                margin-left: 10px;
+                margin-right: 10px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            .slideBtn:hover {
+                background-color: #1a8096;
+            }
+            input[type=submit] {
+                background-color: rgb(67, 150, 69);
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 20px;
+            }
+
+            input[type=submit]:hover {
+                background-color:red;
+            }
+        </style>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src='/scripts/javascript.js'></script>
+        
+    </head>
+
+    <body>
+        <div id='wrapper'>
+            <div id='newGameContainer'>
+                <form action="/" method="GET">
+                    <!-- <input type="text" name="fname" id="fname" placeholder="first name" autofocus autocomplete="off"> -->
+                    <input type="submit" name="newgame" value="New Game">
+                </form>
+            </div>
+
+        {{if .}}
+        <main>
+            <div class="grid-container">
+            
+                {{range .}}
+                
+                    {{range .}}
+                    {{if eq . 0}}
+                    <div class="grid-item"></div>
+                    {{else}}
+                    <div class="grid-item">{{.}}</div>
+                    {{end}}
+                    {{end}}
+                    {{end}}
+            </div>
+        
+        </main>
+        {{end}}
+
+            <div class='buttonContainer'>
+                <button id=slideLeft class='slideBtn' type="button">Left</button>
+                <button id=slideUp class='slideBtn' type="button">Up</button>
+                <button id=slideDown class='slideBtn' type="button">Down</button>
+                <button id=slideRight class='slideBtn' type="button">Right</button>
+            </div>
+        </div>
+
+    </body>
+    </html>
