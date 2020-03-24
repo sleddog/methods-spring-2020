@@ -6,10 +6,11 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class TestFinal {
-
+public class TestFinal 
+{
 	@Test
-	public void test() {
+	public void test() 
+	{
 		
 		newAlphabet tester = new newAlphabet();
 		
@@ -17,6 +18,4 @@ public class TestFinal {
 		
 		assertEquals(out,tester.translate("words"));
 	}
-	
-
 }
