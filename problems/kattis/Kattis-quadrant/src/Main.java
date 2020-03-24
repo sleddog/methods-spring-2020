@@ -24,9 +24,7 @@ public class Main {
             System.out.println("Incorrect input");
             return 5;
         }
-
     }
-
 
     public static void main(String[] args) {
         double x,y;
@@ -40,12 +38,5 @@ public class Main {
 
         Quad(x, y);
 
-
-
     }
-
-
-
-
-
 }
