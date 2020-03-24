@@ -1,3 +1,8 @@
+package firstPackage;
+
+// Taken from Kattis problem "A new Alphabet"
+// https://open.kattis.com/problems/anewalphabet
+
 import java.util.Scanner;
 public class newAlphabet {
 
@@ -25,7 +30,7 @@ public class newAlphabet {
 		in.close();
 	}
 	
-	private String translate(String word)
+	public String translate(String word)
 	{
 		String newLetter = "";
 		String[] letters = word.split("");

@@ -19,17 +19,7 @@ main and prints it.
 
 ------ Local Enviornment --------
 
-Ensure java is in the PATH of command line:
-
-Type java -version 
-and
-javac -version 
-
-and make sure the version numbers are identical. 
-
-If they are not, make sure only one jdk is installed using control panel
-
-Next make sure that java is in the PATH of command line.
+First, make sure that java is in the PATH of command line.
 
 Type echo %PATH% and try to locate the JDK file directory
 
@@ -44,6 +34,19 @@ copy that path and paste it into the PATH section of environment.
 
 Close the environment tab and open a new command line.
 
+Lastly, make sure the version numbers are identical:
+
+Type:
+ 
+java -version 
+
+and
+
+javac -version 
+
+
+If they are not, make sure only one jdk is installed using control panel
+
 ------ Running the Code --------
 
 The program can be run through command line using this code:
@@ -57,3 +60,23 @@ javac newAlphabet.java
 java newAlphabet.java
 
 and add input when prompted to 
+
+---- Running the Unit test ------
+
+First, download the junit.jar and hamcrest-core.jar files from https://github.com/junit-team/junit4/wiki/Download-and-Install
+
+Next, move these two jar files to an easily accessible location on your computer
+
+You should then set the CLASSPATH in command prompt to be able to access these two files
+
+Use: SET CLASSPATH=.;C:\Downloads  (Use the path to your jar files)
+
+In command prompt enter:
+
+javac newAlphabet.java
+
+javac TestFinal.java
+
+java org.junit.runner.JUnitCore TestFinal
+
+The unit test should now run 
