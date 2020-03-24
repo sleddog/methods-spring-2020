@@ -1,0 +1,36 @@
+openapi: 3.0.0
+info:
+    title:
+    description:
+    version: 1.0.0
+    
+servers:
+    - url: http://
+      description: ....
+    
+paths:
+    /something:
+        get:
+            summary: returns something...
+            description: ... optional
+            required: true
+            parameters:
+                - in: query
+                    name: choice
+                    schema:
+                        type: string
+            responses:
+                '200':
+                    description: what is being returned
+                    content:
+                        application/json:
+                            scheme:
+                                type: string
+                                example:
+                '400':
+                    description: invalid parameter type
+                '404':
+                    description: no response for that parameter
+                default:
+                    description: Unexpected error
+
