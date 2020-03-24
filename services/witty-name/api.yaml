@@ -10,6 +10,32 @@ servers:
     
 paths:
   /:
+    get:
+      summary: Returns an answer to a question
+      parameters:
+        - in: query
+          name: question
+          schema:
+            type:
+              string
+      responses:
+        '200':
+          description: The answer to your question
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  answer:
+                    type: string
+                    description: the response to the question
+        '400':
+          description: input is not a question
+        '404':
+          description: no response for that parameter
+        default:
+          description: Unexpected error
+      
     post:
       summary: Returns an answer to the submitted question
       requestBody:
@@ -22,10 +48,13 @@ paths:
         '200':
           description: The answer to your question
           content:
-            text/plain:
+            application/json:
               schema:
-                type: string
-                example: 42
+                type: object
+                properties:
+                  answer:
+                    type: string
+                    description: the response to the question
         '400':
           description: input is not a question
         '404':
