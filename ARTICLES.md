@@ -29,3 +29,4 @@ Place your article suggestions at the end of this list.  When you create the PR 
 
 [Montana Economic Reseach Report](https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A727ee0fe-f3c3-489a-92a9-c8e332b37a6e)
 -Each year the Unversity of Montana compiles state economic data to give readers an idea of the state of different aspects of the state economy. On page 43 the report gives a brief but bright look at the job market and effect of the tech industry in Montana. Great motivation to do well in our studies.  
+
