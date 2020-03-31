@@ -1,0 +1,24 @@
+openapi: 3.0.1
+info:
+  title: Fantasy-Name-Generator
+  description: Just send in a request and our service will generate a snazzy new fantasy character name
+  version: 1.0.0
+servers:
+- url: /
+paths:
+  /:
+    get:
+      operationId: GETANAME
+      summary: Grabs a random fantasy name from backend
+      parameters:
+      - name: Get-A-Name
+        in: query
+        description: request for random name
+        required: true
+        schema: {}
+
+      responses:
+        200:
+          description: Return generated name to screen
+          content: {}
+components: {}
