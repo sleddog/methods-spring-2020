@@ -12,7 +12,7 @@ Group 2 (mad-lads)
 - DanielBachler
 - benbarn313
 
-Group 3
+Group 3 (For-Oh-Four)
 - Lpappas98
 - ConnorLudwig
 - Kendell Prather

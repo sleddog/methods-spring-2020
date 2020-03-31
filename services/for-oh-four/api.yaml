@@ -1,0 +1,29 @@
+openapi: 3.0.0
+info:
+  title: Moon Weight Calculator
+  description: Takes in a weight on earth and produces what that would weigh would be on the moon.
+  version: 0.0.1
+
+servers:
+  - url: /
+
+paths:
+  /:
+    get:
+      summary: Get the converted weight.
+      operationId: getWeight
+      parameters:
+        - name: weight
+          in: query
+          description: Weight on earth
+          required: true
+          schema:
+            type: number
+            format: float
+      responses:
+        '200':
+          description: Converted Weight
+          content:
+            application/json:
+              schema:
+                type: string
