@@ -1,0 +1,64 @@
+openapi: 3.0.0
+info:
+  title: The Okayest Magic 8 Ball
+  description: 8 ball will answer all life's questions in a mediocre fashion
+  version: 1.0.0
+    
+servers:
+  - url: http://www.okayestmagic8ball.com
+    description: Production Server
+    
+paths:
+  /:
+    get:
+      summary: Returns an answer to a question
+      parameters:
+        - in: query
+          name: question
+          schema:
+            type:
+              string
+      responses:
+        '200':
+          description: The answer to your question
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  answer:
+                    type: string
+                    description: the response to the question
+        '400':
+          description: input is not a question
+        '404':
+          description: no response for that parameter
+        default:
+          description: Unexpected error
+      
+    post:
+      summary: Returns an answer to the submitted question
+      requestBody:
+        required: true
+        content:
+          text/plain:
+            schema:
+              type: string
+      responses:
+        '200':
+          description: The answer to your question
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  answer:
+                    type: string
+                    description: the response to the question
+        '400':
+          description: input is not a question
+        '404':
+          description: no response for that parameter
+        default:
+          description: Unexpected error
+

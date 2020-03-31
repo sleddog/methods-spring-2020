@@ -22,10 +22,10 @@ Group 4
 - sayloradm
 - Swingus
 
-Group 5
-- Joe Akers
-- Courtney Yovich
-- Jamie Winter
+Group 5 ([witty name](./services/witty-name))
+- jjg-akers
+- cjyovich
+- jailarie
 
 Group 6 (AKA team funkytown)
 - Jason-Bengtson
