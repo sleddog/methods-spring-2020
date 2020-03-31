@@ -20,3 +20,7 @@ Running the code:
 	"java Fib"
 	
 
+To run the Tests:
+ Setup is the same as above.
+ 1. Type: javac FibTest.java
+ 2. Type: java FibTest
