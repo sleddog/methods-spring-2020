@@ -1,3 +1,20 @@
 .idea/
 venv/
+
 .class/ 
+
+
+
+## Golang
+# Binaries, plugins, libs
+*.dll
+*.dylib
+*.exe
+*.exe~
+*.so
+*.log
+
+
+# Testing
+*.test
+*.tmp

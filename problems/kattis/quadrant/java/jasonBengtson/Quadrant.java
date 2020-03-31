@@ -17,7 +17,6 @@ public class Main {
 
     }
 
-
     public static void main(String[] args) {
         double x,y;
 
@@ -30,12 +29,5 @@ public class Main {
 
         Quad(x, y);
 
-
-
     }
-
-
-
-
-
 }

@@ -7,10 +7,6 @@
 
  public class Driver {
 
-     /**
-      * @param args the command line arguments
-      */
-
      public static void main(String[] args) {
                //Make an int that will store the solution with an input of 1000 then print it
                int totalSum = solution(1000);

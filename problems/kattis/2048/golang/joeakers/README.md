@@ -87,3 +87,43 @@ Once the server has started, open a web browser and navigate to:
 [http://localhost:8080](http://localhost:8080)
 
 To exit the program, return to the command prompt and enter ctrl+c.
+
+## Testing
+
+To run the unit tests, Golang must be installed. If Go is not installed on your local environment, follow the instructions above.
+
+To run the tests enter the following commands:
+
+```
+$ go test -v
+```
+
+This should provide a result similar to
+
+```
+$ go test -v
+=== RUN   TestProcessRow
+=== RUN   TestProcessRow/([0_0_0_0])
+=== RUN   TestProcessRow/([1_1_1_1])
+=== RUN   TestProcessRow/([1_2_1_2])
+=== RUN   TestProcessRow/([1_1_2_2])
+=== RUN   TestProcessRow/([3_0_3_0])
+=== RUN   TestProcessRow/([4_0_0_0])
+=== RUN   TestProcessRow/([1_2_3_4])
+=== RUN   TestProcessRow/([4_0_0_4])
+=== RUN   TestProcessRow/([0_2_2_0])
+=== RUN   TestProcessRow/([3_4_4_2])
+--- PASS: TestProcessRow (0.00s)
+    --- PASS: TestProcessRow/([0_0_0_0]) (0.00s)
+    --- PASS: TestProcessRow/([1_1_1_1]) (0.00s)
+    --- PASS: TestProcessRow/([1_2_1_2]) (0.00s)
+    --- PASS: TestProcessRow/([1_1_2_2]) (0.00s)
+    --- PASS: TestProcessRow/([3_0_3_0]) (0.00s)
+    --- PASS: TestProcessRow/([4_0_0_0]) (0.00s)
+    --- PASS: TestProcessRow/([1_2_3_4]) (0.00s)
+    --- PASS: TestProcessRow/([4_0_0_4]) (0.00s)
+    --- PASS: TestProcessRow/([0_2_2_0]) (0.00s)
+    --- PASS: TestProcessRow/([3_4_4_2]) (0.00s)
+PASS
+ok      csci494-assignment3    0.362s
+```
