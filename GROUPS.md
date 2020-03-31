@@ -6,7 +6,7 @@ Group 1
 - github-username
 - github-username
 
-Group 2
+Group 2 (mad-lads)
 - wyatt-benson
 - Tysen Radovich -tyrado
 - DanielBachler
