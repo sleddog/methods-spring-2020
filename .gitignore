@@ -1,6 +1,9 @@
 .idea/
 venv/
 
+.class/ 
+
+
 
 ## Golang
 # Binaries, plugins, libs
