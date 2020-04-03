@@ -66,7 +66,7 @@ This will be hosted by AWS
 Endpoint
 -----------------------------
 
-A GET request will be made when the user inputs their six stats
+A POST request will be made which will include the user inputs their six stats
 
 Language
 -----------------------------
@@ -76,4 +76,6 @@ Will be using Java
 Tested
 -----------------------------
 
-Tested using swagger
+Tested locally using postman
+
+Also using Springbook
