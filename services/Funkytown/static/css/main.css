@@ -1,0 +1,21 @@
+body {
+
+    margin: 10;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(240, 50, 50);
+    background-color: gray;
+    text-shadow: 4px 4px #000000;
+
+    background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2016/07/16/996837/5a0a95ead3260950b5170a22bc669c48-700.jpg");
+}
+footer {
+    text-align: center;
+    width:100%;
+    position:relative;
+    bottom:-620px;
+    font-size: 14px;
+    color: white;
+
+}
+
