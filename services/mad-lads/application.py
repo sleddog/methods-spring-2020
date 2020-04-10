@@ -29,6 +29,12 @@ def randomFacts():
 	     "Cheetahs": "can run 70 mph","cheetahs": "can run 70 mph",
 	     "Dung Beetles": "roll a bunch of poop together to eat it or save it and eat it later","dung beetles": "roll a bunch of poop together to eat it or save it and eat it later",
 	     "Termites": "actually have big pinchers to protect themselves", "termites": "actually have big pinchers to protect themselves"}
+	 insults = {1: 'Yo mommas so stupid, she put two quarters in her ears and thought she was listening to 50 Cent.', 2: '', 3: ''}
 
+    if animal == "human":
+        ret = insults[random.randint(1, 4)]
+
+    else:
+        ret = facts[animal]
     return f'Random facts about: {escape(animal)}!'
 
