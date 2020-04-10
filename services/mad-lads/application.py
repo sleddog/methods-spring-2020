@@ -8,7 +8,7 @@ def randomFacts():
     return f'Random facts about: {escape(animal)}!'
 
 def animal():
-    African elephants: "are bigger than Asian elephants"
+	African elephants: "are bigger than Asian elephants"
 	whitetail deer: "eat peoples’ gardens"
 	Peregrine falcons: "are the fastest birds on the planet"
 	Crocodiles: "can have a bite force of 2000 pounds"
