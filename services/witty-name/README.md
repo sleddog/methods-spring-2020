@@ -13,21 +13,21 @@ The Okayest Magic Eight Ball (www.okayestmagic8ball.com)
 
 #### Project Description
 
-Our project is to create the okayest magic eight ball. The user will enter a question, click submit, ant the eight ball will return a randomly chosen non commital response such as "sure", "probably", and "I think so?". 
+Our project created the okayest magic eight ball. A user can enter a question, click submit, and the eight ball will return a randomly chosen non-commital response such as "sure", "probably", and "I think so?". 
 
+Python/ Flask was used to create the service.
 
-Where will it be hosted (esus, personal website, google, AWS, Azure, etc...)?
-    We will be hosting on AWS.
+The project is deployed on AWS and can be reached at [www.okayestmagic8ball.com](www.okayestmagic8ball.com).
     
-What will the endpoint look like? Include a few example requests and responses.
-    The user will make a GET request when they submit their question (must end with a '?') to the eight ball and will respond with randomly selected JSON
+#### API Description
+The API endpoint is www.okayestmagic8ball.com/question.
+
+It can be tested as follows:
+
+From a browser or applications such as Postman:
+        www.okayestmagic8ball.com/questiong?question=who+am+i
     
-    request: www.okayestmagic8ball.com/?question=who+am+i?
-    respons: www.okayestmagic8ball.com/i+think+so?
-    
-What language/framework/tech stack you will use?
-    We are planning to use a Flask framework, utilizing Python.
-    
-Show how it can be tested (cURL requests, javascript client i.e. react app, etc...)
-        cURL requests: curl -X GET www.okayestmagic8ball.com/?question=who+am+i?
-        unit testing
+From the command line:
+```
+curl -X GET www.okayestmagic8ball.com/question?question=who+am+i
+```
