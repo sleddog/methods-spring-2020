@@ -25,7 +25,7 @@ The API endpoint is www.okayestmagic8ball.com/question.
 It can be tested as follows:
 
 From a browser or applications such as Postman:
-        [www.okayestmagic8ball.com/questiong?question=who+am+i](www.okayestmagic8ball.com/questiong?question=who+am+i)
+        [www.okayestmagic8ball.com/question?question=who+am+i](www.okayestmagic8ball.com/question?question=who+am+i)
     
 From command line:
 ```
