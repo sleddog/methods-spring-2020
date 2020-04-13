@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>{% block title %}{% endblock %}</title>
+<!--        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='layout.css') }}"  />-->
+        <link rel="stylesheet" type="text/css" href="/static/layout.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src='/static/index.js'></script>
+    </head>
+
+    <body>
+           <div id="formHolder">
+                  <form>
+                      <input type="text" id="question" name="fname" placeholder="You ask">
+                      <button type="button" id="submit">?</button>
+                    </form>
+                   
+           </div>
+           <div id='ballHolder'>
+                <div id="ball">
+                    <div id='eight'>42</div>
+                </div>
+            </div>
+    </body>
+</html>
