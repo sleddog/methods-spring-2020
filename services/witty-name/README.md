@@ -17,7 +17,7 @@ Our project created the okayest magic eight ball. A user can enter a question, c
 
 Python/ Flask was used to create the service.
 
-The project is deployed on AWS and can be reached at [www.okayestmagic8ball.com](www.okayestmagic8ball.com).
+The project is deployed on AWS and can be reached at [www.okayestmagic8ball.com] www.okayestmagic8ball.com.
     
 #### API Description
 The API endpoint is www.okayestmagic8ball.com/question.
@@ -25,7 +25,7 @@ The API endpoint is www.okayestmagic8ball.com/question.
 It can be tested as follows:
 
 From a browser or applications such as Postman:
-        www.okayestmagic8ball.com/questiong?question=who+am+i
+        [www.okayestmagic8ball.com/question?question=who+am+i] www.okayestmagic8ball.com/questiong?question=who+am+i
     
 From the command line:
 ```
