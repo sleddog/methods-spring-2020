@@ -1,0 +1,37 @@
+body {
+
+    margin: 10;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(240, 50, 50);
+    background-color: white;
+    background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2016/07/16/996837/5a0a95ead3260950b5170a22bc669c48-700.jpg");
+}
+h1, p {
+    -webkit-text-stroke: 1px black;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 0 0 50px black, 0 0 100px black;
+
+}
+
+table.center {
+    background-color: rgb(63, 60, 60);
+    text-shadow: 2px 2px black;
+    font-weight: lighter;
+    color: white;
+    margin-top:100px;
+    margin-bottom:auto;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+footer {
+    text-align: center;
+    width:100%;
+    position:relative;
+    bottom: -300px;
+    font-size: 14px;
+    color: white;
+}
+
