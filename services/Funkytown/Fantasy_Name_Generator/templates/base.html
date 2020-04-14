@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+     {% block head %}{% endblock %}
+</head>
+
+<body>
+
+        {% block body %}{% endblock %}
+</body>
+
+<footer>
+        {% block title %}
+         Picture from https://www.wallpaperup.com/996837/art_artwork_fantasy_original_wallpapers_background_(38).html
+        {% endblock %}
+</footer>
+
+</html>
