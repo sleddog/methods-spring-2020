@@ -24,4 +24,4 @@ The language we will be using is php for the REST api.
 
 # Testing
 
-To test the application cURL https://www.cs.montana.edu/~moiyad.alfawwar/api.php?ingredient=potato
+To test the application cURL 'https://www.cs.montana.edu/~moiyad.alfawwar/api.php?ingredient=potato'
