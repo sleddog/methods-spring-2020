@@ -1,0 +1,44 @@
+openapi: 3.0.0
+info:
+  title: Ingredient Type
+  description: It returns whether the input is a fruit or a vegetable.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+# Added by API Auto Mocking Plugin
+servers:
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/Dmoayad/ingredtype/1.0.0
+paths:
+  /get:
+    get:
+      tags:
+      - Users
+      summary: Gets whether the input ingredient is a fruit or a vegetable.
+      description: |
+        By inputing an ingredient you can get a response if the ingredient is a
+        fruit or a vegetable.
+      operationId: ingredient
+      parameters:
+      - name: ingredientType
+        in: query
+        description: Pass the type of ingredient
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: An ingredient type (fruit or vegetable only).
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/IngredientType'
+        "400":
+          description: bad input parameter
+components:
+  schemas:
+    IngredientType:
+      type: string
