@@ -51,7 +51,7 @@ def randomFacts():
                2: 'Test', 3: 'test1'}
 
     if animal == "human":
-        ret = insults[random.randint(1, 4)]
+        ret = insults[random.randint(1, 3)]
 
     else:
         try:
