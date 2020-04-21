@@ -11,12 +11,7 @@ The application will be hosted on Esus Gianforte School of Computing server.
 
 # Endpoint
 
-There is one endpoint in this API, which is animalType.  Specifying an animal type returns a random fact about that animal.  
-Mantis shrimp-The mantis shrimp has the world's fastest punch.
-Cows -Cows painted with zebra-like stripes can avoid being bitten by flies.
-Grizzly bear- A grizzly bear's bite is strong enough to crush a bowling ball.
-Zebra - Zebra stripes act as a natural bug repellant.
-Failure to input an animal, or putting in an unknown animal causes the random fact to instead be a human based insult.
+One end point is specified in this api, it's IngredientType. For example, inputting an ingredient such as a potato should return "it's a vegetable" or an ingredient such as mango should return "it's a fruit".
 
 # Language and Framework
 
