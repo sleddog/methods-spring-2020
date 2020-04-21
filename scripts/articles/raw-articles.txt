@@ -1,0 +1,14 @@
+https://blog.kotlin-academy.com/your-first-selenium-data-scraper-in-kotlin-51ce22083fb9
+https://nora.codes/post/stop-making-students-use-eclipse/
+https://ashishb.net/tech/docker-101-a-basic-web-server-displaying-hello-world/
+http://hintjens.com/blog:98
+https://indepth.dev/becoming-a-git-pro-part-1-internal-git-architecture/
+https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
+https://github.com/docker/labs/blob/master/beginner/chapters/alpine.md
+http://cb.vu/unixtoolbox.xhtml
+https://lobste.rs/s/ya4ajj/what_language_do_you_prefer_for_new
+https://blog.cerebralab.com/Bimodal_programming_%E2%80%93_why_design_patterns_fail
+https://www.bitlog.com/2020/02/12/why-are-we-so-bad-at-software-engineering/
+https://missing.csail.mit.edu/
+https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort
+https://blog.viktoradam.net/2018/07/26/githooks-auto-install-hooks/
