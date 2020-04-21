@@ -6,8 +6,7 @@
 </head>
 <body>
 	<h1>Optimal class based on stats</h1>
-    <p th:text="${player.highest}" />
-    <p th:text="${player.optimal}" />
+    <p th:text="'Class ' + ${player.chosen}" />
     <a href="/player">Re-enter stats or enter new stats</a>
 </body>
 </html>
