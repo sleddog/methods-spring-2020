@@ -13,3 +13,5 @@ What are the absolute worst things about your job, is it worth it?
 What are the best resources for finding jobs? 
 
 What specializations/branches of our industry would you focus on? 
+
+Do you find it more difficult to adapt to people you work with or the new technologies? 
