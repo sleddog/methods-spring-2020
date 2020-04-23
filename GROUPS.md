@@ -2,7 +2,7 @@
 
 Group 1
 - dmoayad
-- github-username
+- MarnieRM
 - github-username
 - github-username
 
