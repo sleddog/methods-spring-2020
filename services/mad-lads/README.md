@@ -9,6 +9,10 @@
 
 The application will be hosted on Dan's webserver at danbachler.com
 
+We had problems with the hosting, so instead the application is only locally run for now.  To run export the application as a flask app and run the flask app locally.
+
+[Flask Documentation on Running Flask App](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
+
 # Endpoint
 
 There is one endpoint in this API, which is animalType.  Specifying an animal type returns a random fact about that animal.  
@@ -25,3 +29,9 @@ The language and framework we will be using is Python using Flask for the web ap
 # Testing
 
 To test the application there will be a unit-testing-esque file that runs cURL requests against the server and expects a certain outcome.
+
+# Use
+
+[Video Demonstration of API](https://youtu.be/HuVOYi3enVg)
+
+This link shows a quick video demonstration of the API in use.
