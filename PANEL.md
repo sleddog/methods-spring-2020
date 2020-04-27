@@ -31,3 +31,7 @@ Any tips for interns? (Interviewing and once you have the postition)
 Favorite piece of coding you have done?
 
 Best way to manage a high work load?
+
+When working out a complex solution do you prefer to take notes on paper, or use a piece of software to design it?
+
+Do you use a real rubber duck/rubber animal for debugging
