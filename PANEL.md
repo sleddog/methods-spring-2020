@@ -25,3 +25,7 @@ What technologies are the industry has almost enough of in terms of demand?
 One favorite app on your phone.
 
 Do you find it more difficult to adapt to people you work with or the new technologies? 
+
+Favorite piece of coding you have done?
+
+Best way to manage a high work load?
