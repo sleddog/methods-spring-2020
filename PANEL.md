@@ -26,6 +26,8 @@ One favorite app on your phone.
 
 Do you find it more difficult to adapt to people you work with or the new technologies? 
 
+Any tips for interns? (Interviewing and once you have the postition)
+
 Favorite piece of coding you have done?
 
 Best way to manage a high work load?
