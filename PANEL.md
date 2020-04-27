@@ -14,4 +14,14 @@ What are the best resources for finding jobs?
 
 What specializations/branches of our industry would you focus on? 
 
+What do you do when you feel imposter syndrome and how do you deal with it?
+
+What do you do when you feel stuck in a problem?
+
+What upcoming stacks or technologies you think are going to be promising and might be in  a lot of demand?
+
+What technologies are the industry has almost enough of in terms of demand?
+
+One favorite app on your phone.
+
 Do you find it more difficult to adapt to people you work with or the new technologies? 
