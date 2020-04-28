@@ -62,3 +62,6 @@ What has been the hardest part of your job?
 
 With the uptick in people using online services how has that impacted your jobs and your company?
 
+What benefits reasonable to negotiate -- salary, vacation, location...etc?
+
+When you were starting out, what types of work environments benefited you the most?
