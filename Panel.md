@@ -1,4 +1,4 @@
-What languages do you prefer people to learn to be a part of your organization
+What languages do you prefer people to learn to be a part of your organization?
 
 What has been the hardest transition during quarantine that you have made?
 
