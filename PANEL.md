@@ -65,3 +65,10 @@ With the uptick in people using online services how has that impacted your jobs 
 What benefits reasonable to negotiate -- salary, vacation, location...etc?
 
 When you were starting out, what types of work environments benefited you the most?
+
+What are your thoughts on becoming a freelancer rather than working for a specific company?
+
+What are the top 5 most important things to know,  langaguewise, coming into the work place?
+
+
+
