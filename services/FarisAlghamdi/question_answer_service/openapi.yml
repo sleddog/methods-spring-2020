@@ -1,0 +1,60 @@
+openapi: 3.0.1
+servers:
+  - url: '{scheme}://localhost:80808/'
+    variables:
+      scheme:
+        description: 'The Data Set API is accessible via https and http'
+        enum:
+          - 'https'
+          - 'http'
+        default: 'https'
+info:
+  description: A CRUD Application for Questions and Answers
+  version: 1.0.0
+  title: Questions Answers API
+paths:
+  /:
+    get:
+      summary: Returns a list of questions.
+      description: Optionally, the data can sorted or paginated
+      responses:
+        '200':
+          description: Returns a list of questions
+          content:
+            application/json:
+              schema:
+                $ref: '#/questions/'
+              example:
+                {
+                  "total": 4,
+                  "content": [
+                  {
+                    "createdAt": "2020-05-03T22:12:53.977+0000",
+                    "updatedAt": "2020-05-03T22:12:53.977+0000",
+                    "id": 1000,
+                    "title": "Who was steve jobs?",
+                    "description": "I would like to know who Steve Jobs was and why he is so famous."
+                  },
+                  {
+                    "createdAt": "2020-05-03T22:54:00.105+0000",
+                    "updatedAt": "2020-05-03T22:54:00.105+0000",
+                    "id": 1051,
+                    "title": "How do you apply for tax refund?",
+                    "description": "I would like to know how to apply for my tax refunds."
+                  },
+                  {
+                    "createdAt": "2020-05-03T22:54:54.400+0000",
+                    "updatedAt": "2020-05-03T22:54:54.400+0000",
+                    "id": 1052,
+                    "title": "How old was Bill Gates when he founded Microsoft?",
+                    "description": "I would like to know how old Bill Gates was when he founded Microsoft and what made it possible."
+                  },
+                  {
+                    "createdAt": "2020-05-03T22:56:08.874+0000",
+                    "updatedAt": "2020-05-03T22:56:08.874+0000",
+                    "id": 1053,
+                    "title": "How much is 50 dollars in euros?",
+                    "description": "How much in euros do you get after converting 50 dollars"
+                  }
+                  ]
+                }
