@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Here's your class</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Optimal class based on stats</h1>
+    <p th:text="${player.highest}" />
+    <p th:text="${player.optimal}" />
+    <a href="/player">Re-enter stats or enter new stats</a>
+</body>
+</html>

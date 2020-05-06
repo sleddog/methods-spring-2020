@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>What's the right class for you? - A Service for Dnd Players</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Input stats</h1>
+    <form action="#" th:action="@{/player}" th:object="${player}" method="post">
+    
+    	<p>Strength: <input type="text" th:field="*{strg}" /></p>
+    	<p>Dexterity: <input type="text" th:field="*{dex}" /></p>
+    	<p>Intelligence: <input type="text" th:field="*{inte}" /></p>
+    	<p>Wisdom: <input type="text" th:field="*{wis}" /></p>
+    	<p>Constitution: <input type="text" th:field="*{con}" /></p>
+    	<p>Charisma: <input type="text" th:field="*{cha}" /></p>
+        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+    </form>
+</body>
+</html>

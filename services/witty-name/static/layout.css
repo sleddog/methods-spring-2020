@@ -1,0 +1,61 @@
+html, body {
+    background-color: black;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+/*     background-color: DodgerBlue;*/
+    justify-content: center;
+ }
+
+#bodyContainer {
+     display: flex;
+     height: 100%;
+    width: 100%;
+     align-items: center;
+/*     background-color: DodgerBlue;*/
+     justify-content: center;
+ }
+
+#ballHolder {
+    display: none;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+/*
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+*/
+/*    position: absolute;*/
+}
+#formHolder{
+/*    display: flex;*/
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+}
+
+#indexIcon.Hover { 
+    cursor: pointer;
+    animation: none;
+    border-style: solid;
+    border-color: whitesmoke; 
+    border-width: 1px;
+    width: 120px;
+    height: 120px;
+}
+#ball{
+    display: flex;
+    justify-content: center;
+/*    align-content: center;*/
+    align-items: center;
+    height: 95%;
+    widows: 95%;
+    border-radius: 50%;
+    background-color: aliceblue;
+}

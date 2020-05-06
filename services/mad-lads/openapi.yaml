@@ -1,0 +1,50 @@
+openapi: 3.0.0
+info:
+  title: Animal Facts API
+  description: Random animal facts
+  contact:
+    email: dan@danbachler.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+- url: https://virtserver.swaggerhub.com/DanielBachler/mad-lads/1.0.0
+  description: SwaggerHub API Auto Mocking
+tags:
+- name: anyone
+  description: Operations for anyone
+paths:
+  /getfact:
+    get:
+      tags:
+      - anyone
+      summary: Gets a fact about an animal
+      description: |
+        By passing in an animal name you can get a random fact about the animal.
+        If the animal isn't in the list, returns a human based insult.
+      operationId: animalFact
+      parameters:
+      - name: animalType
+        in: query
+        description: Pass the type of animal to get facts about
+        required: true
+        style: form
+        explode: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: A random animal fact
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/AnimalFact'
+        "400":
+          description: bad input parameter
+components:
+  schemas:
+    AnimalFact:
+      type: string

@@ -1,0 +1,47 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  version: 0.1.0
+servers:
+  - url: http://api.example.com/v1
+paths:
+  /dicerolls:
+    get:
+      summary: Dice Values
+      description: Takes top two values and returns recommended classes
+      parameters:
+        - in: query
+          name: strength
+          schema:
+            type: integer
+          description: Strength Roll
+        - in: query
+          name: dexterity
+          schema:
+            type: integer
+          description: Dexterity Roll
+        - in: query
+          name: constitution
+          schema:
+            type: integer
+          description: Constitution Roll
+        - in: query
+          name: intelligence
+          schema:
+            type: integer
+          description: Intelligence Roll
+        - in: query
+          name: wisdom
+          schema:
+            type: integer
+          description: Wisdom Roll
+        - in: query
+          name: charisma
+          schema:
+            type: integer
+          description: Charisma Roll
+    produces:
+      - class
+    responses:
+      200:
+        description: OK
