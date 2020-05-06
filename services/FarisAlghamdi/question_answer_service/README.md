@@ -100,3 +100,7 @@ should be hosted in ASW EC2 servers.
 ## Testing
 
 The service's was tested on postman by sending requests and validating the responses.
+
+## Teat Video 
+
+https://youtu.be/HVAlxrJBCY4
